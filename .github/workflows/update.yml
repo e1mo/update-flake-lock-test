@@ -14,4 +14,4 @@ jobs:
         uses: e1mo/update-flake-lock-gc-action@main
         with:
           check-command: |
-            nix build .\#pkgs.x86_64-linux.airfield --print-out-paths -L --no-update-lock-file
+            nix build .\#pkgs.x86_64-linux.hello --print-out-paths -L --no-update-lock-file --no-link
