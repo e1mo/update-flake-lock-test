@@ -11,4 +11,4 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v1
       - name: Update flake.lock
-        uses: DeterminateSystems/update-flake-lock@v4
+        uses: e1mo/update-flake-lock-gc-action@main
